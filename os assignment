@@ -1,0 +1,18 @@
+#include<stdio.h> 
+#include<conio.h> 
+int main()
+{
+int Burst_time[10],Process_no[10],waiting_Time[10],Turn_Around_Time[10];
+int A_T[10],Prior[10],i,j,Number_of_Process,tot=0,flag,temp,Avg_Waiting_Time,Avg_Turn_Around_Time; 
+printf("Enter Number of Process:");
+scanf("%d",&Number_of_Process);
+printf("\nEnter Burst Time and Prior\n");
+for(i=0;i<Number_of_Process;i++) 
+{
+printf("\nP[%d]\n",(i+1)); 
+printf("Enter Burst Time:"); 
+scanf("%d",&B_T[i]); 
+printf("Enter Arrival Time:"); 
+scanf("%d",&A_T[i]); 
+printf("Enter Prior:"); 
+scanf("%d",&Prior[i]); 
